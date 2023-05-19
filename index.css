@@ -1,18 +1,18 @@
 body {
-    background-color: #ff0054;
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+  background-color: #ff0a54;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
 }
 
 form {
-    background-color: #ffbe0b;
-    text-align: left;
-    padding: 4.0rem 3.0rem;
-    border-radius: 0.25rem;
-    margin-bottom: 50px;
-    box-shadow: 3px 6px 9px rgb(99, 99, 99);
-    display: inline-block;
+  background-color: #fad643;
+  text-align: left;
+  padding: 4.0rem 3.0rem;
+  border-radius: 0.25rem;
+  margin-bottom: 50px;
+  box-shadow: 3px 6px 9px rgb(73, 73, 73);
+  display: inline-block;
 }
 
 .heading {
@@ -20,71 +20,54 @@ form {
 }
 
 .form-input{
-    display: block;
-    width: 90%;
-    height: 2.5rem;
-    padding: 0.25rem 1.1rem;
-    border-radius: 0.5rem;
-    border-color: rgb(167, 167, 167);
-  }
+  display: block;
+  width: 90%;
+  height: 2.5rem;
+  padding: 0.25rem 1.1rem;
+  border-radius: 2.5rem;
+  border-top: white;
+  border-left: white;
+  border-color: white;
+}
 
-  .role-input {
-    display: block;
-    width: 96.5%;
-    height: 3.1rem;
-    padding: 0.25rem 1.1rem;
-    border-radius: 0.4rem;
-    border-color: rgb(56, 56, 56);
-  }
+.role-input {
+  display: block;
+  width: 96.5%;
+  height: 3.1rem;
+  padding: 0.25rem 1.1rem;
+  border-radius: 0.4rem;
+  border-color: white;
+}
 
-  .gender-input {
-    width: 40px;
-    height: 17px;
-  }
+.gender-input, .star-input, .box-input, .rec-input  {
+  width: 40px;
+  height: 21px;
+  margin-top: 0.7rem;
+  border-color: white;
+}
 
-  .star-input {
-    width: 40px;
-    height: 17px;
-  }
+.sugg-input {
+  width: 90%;
+  height: 9.5rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 0.5rem;
+  border-color: white;
+  border-style: outset;
+  resize: vertical;
+}
 
-  .box-input {
-    width: 40px;
-    height: 17px;
-  }
+.sub {
+  display: block;
+  background-color: #8338ec;
+  color: white;
+  width: 105px;
+  height: 45px;
+  padding: 0.7rem 17rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 700;
+}
 
-  .rec-input {
-    width: 40px;
-    height: 17px;
-  }
-
-  .sugg-input {
-    width: 90%;
-    height: 9.5rem;
-    padding: 0.5rem 1.1rem;
-    border-radius: 0.5rem;
-    border-color: black;
-    border-style: outset;
-    resize: vertical;
-  }
-
-  .sub {
-    display: block;
-    background-color: #8338ec;
-    color: aliceblue;
-    border-color: white;
-    width: 105px;
-    height: 45px;
-    padding: 0.7rem 17rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    font-weight: 700;
-  }
-
-  .Rating--Star {
-    filter: grayscale(100%);
-    opacity: .3;
-  }
-
-  .copy {
-    background-color: aliceblue;
-  }
+.copy {
+  background-color: white;
+}
